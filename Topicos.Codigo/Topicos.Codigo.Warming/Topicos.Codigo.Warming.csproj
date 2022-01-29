@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Topicos.Codigo.Dado.BL\Topicos.Codigo.Dados.BL.csproj" />
+  </ItemGroup>
+
 </Project>

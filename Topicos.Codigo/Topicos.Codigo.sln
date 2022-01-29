@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Codigo.Warming", "Topicos.Codigo.Warming\Topicos.Codigo.Warming.csproj", "{09CD385F-82BF-4F63-9154-7703AA4E92B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Codigo.Dado.BL", "Topicos.Codigo.Dado.BL\Topicos.Codigo.Dado.BL.csproj", "{F3364C94-4D0E-406D-9EA5-0CC315167EF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Codigo.Dados.BL", "Topicos.Codigo.Dado.BL\Topicos.Codigo.Dados.BL.csproj", "{F3364C94-4D0E-406D-9EA5-0CC315167EF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

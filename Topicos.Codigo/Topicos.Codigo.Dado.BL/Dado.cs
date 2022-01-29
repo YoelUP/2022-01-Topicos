@@ -1,4 +1,4 @@
-﻿namespace Topicos.Codigo.Dado.BL
+﻿namespace Topicos.Codigo.Dados.BL
 {
     /// <summary>
     /// Clase Business Logic de Dado
@@ -35,14 +35,18 @@
         }
 
         /// <summary>
-        /// Metodo Tirar con Parametros
+        /// Metodo Tirar con Parametros Lista
         /// </summary>
-        public void Tirar(int cantidadVeces)
+        public IList<int> Tirar(int cantidadVeces)
         {
+            var lista = new List<int>();
             for (int i = 0; i < cantidadVeces; i++)
             {
                 this.Tirar();
+                lista.Add(this.Valor);
             }
+            return lista;
         }
+
     }
 }
