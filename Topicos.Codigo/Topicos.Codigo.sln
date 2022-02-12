@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Codigo.Warming", "Topicos.Codigo.Warming\Topicos.Codigo.Warming.csproj", "{09CD385F-82BF-4F63-9154-7703AA4E92B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.Codigo.Warming", "Topicos.Codigo.Warming\Topicos.Codigo.Warming.csproj", "{09CD385F-82BF-4F63-9154-7703AA4E92B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.Codigo.Dados.BL", "Topicos.Codigo.Dado.BL\Topicos.Codigo.Dados.BL.csproj", "{F3364C94-4D0E-406D-9EA5-0CC315167EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.Codigo.Dados.BL", "Topicos.Codigo.Dado.BL\Topicos.Codigo.Dados.BL.csproj", "{F3364C94-4D0E-406D-9EA5-0CC315167EF7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.AdventureWorksLT.Model", "Topicos.AdventureWorksLT.Model\Topicos.AdventureWorksLT.Model.csproj", "{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.AdventureWorksLT.BL", "Topicos.AdventureWorksLT.BL\Topicos.AdventureWorksLT.BL.csproj", "{DFD0DFCB-2676-4D80-83CE-421AE889D220}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{F3364C94-4D0E-406D-9EA5-0CC315167EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3364C94-4D0E-406D-9EA5-0CC315167EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3364C94-4D0E-406D-9EA5-0CC315167EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,7 +9,7 @@ namespace Topicos.Codigo.Warming
 {
     public class JuegoDeDados
     {
-        /// <summary>
+        /// <summary>¬
         /// Se encarga de tirar 2 dados las veces que el usuario lo desee y que muestre el valor de los dados en cada una de las veces que se tire.
         /// </summary>
         public void InicieElJuego()

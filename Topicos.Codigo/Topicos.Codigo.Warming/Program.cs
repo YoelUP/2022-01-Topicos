@@ -1,3 +1,5 @@
-﻿var elJuego = new Topicos.Codigo.Warming.JuegoDeDados();
-elJuego.InicieElJuego();
+﻿    
+var lasConsultas = new Topicos.Codigo.Warming.AdventureWorksLTConsultas();
+lasConsultas.MenuPrincipal();
+
 
