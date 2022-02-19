@@ -11,17 +11,17 @@ namespace Topicos.AdventureWorksLT.BL.Repositorio
     {
         private readonly AdventureWorksLT2019Context _contexto = new();
 
-        public Model.Models.Customer? BuscarPorID(int id)
-        {
-            var resultado = _contexto.Customers.Find(id);
-            return resultado;
-        }
+        //public Model.Models.Customer? BuscarPorID(int id)
+        //{
+        //    var resultado = _contexto.Customers.Find(id);
+        //    return resultado;
+        //}
 
-        public IList<Model.Models.Customer> BuscarPorNombreOApellido(string hilera)
-        {
-            var resultado = _contexto.Customers.Where(c => c.FirstName.Contains(hilera) ||
-            c.LastName.Contains(hilera)).OrderBy(c => c.FirstName).ToList();
-            return resultado;
-        }
+        //public IList<Model.Models.Customer> BuscarPorNombreOApellido(string hilera)
+        //{
+        //    var resultado = _contexto.Customers.Where(c => c.FirstName.Contains(hilera) ||
+        //    c.LastName.Contains(hilera)).OrderBy(c => c.FirstName).ToList();
+        //    return resultado;
+        //}
     }
 }
