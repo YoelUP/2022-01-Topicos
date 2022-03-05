@@ -35,6 +35,9 @@ namespace Topicos.Codigo.Warming
                 case "3":
                     ConsultarProductos();
                     break;
+                case "4":
+                    ConsultarProductosPorDescripcion();
+                    break;
                 case "0":
                     break;
                 default:
@@ -43,6 +46,11 @@ namespace Topicos.Codigo.Warming
 
 
             }
+        }
+
+        private void ConsultarProductosPorDescripcion()
+        {
+            
         }
 
         private void ConsultarProductos()
@@ -120,6 +128,7 @@ namespace Topicos.Codigo.Warming
             Console.WriteLine("1 Consultar Customer por ID");
             Console.WriteLine("2 Consultar Customers por Nombre o Apellido");
             Console.WriteLine("3 Consultar Productos");
+            Console.WriteLine("4 Consultar Productos,Buscar Por Descripcion");
             Console.WriteLine("0 Salir");
         }
 

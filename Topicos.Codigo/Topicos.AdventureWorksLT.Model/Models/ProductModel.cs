@@ -7,6 +7,7 @@ namespace Topicos.AdventureWorksLT.Model.Models
     {
         public ProductModel()
         {
+            ProductModelProductDescriptions = new HashSet<ProductModelProductDescription>();
             Products = new HashSet<Product>();
         }
 
@@ -16,6 +17,7 @@ namespace Topicos.AdventureWorksLT.Model.Models
         public Guid Rowguid { get; set; }
         public DateTime ModifiedDate { get; set; }
 
+        public virtual ICollection<ProductModelProductDescription> ProductModelProductDescriptions { get; set; }
         public virtual ICollection<Product> Products { get; set; }
     }
 }

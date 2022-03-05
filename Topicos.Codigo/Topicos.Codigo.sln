@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.Codigo.Dados.BL", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.AdventureWorksLT.Model", "Topicos.AdventureWorksLT.Model\Topicos.AdventureWorksLT.Model.csproj", "{36BB0FAF-2CCF-49BB-A813-8501DF9CBCE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.AdventureWorksLT.BL", "Topicos.AdventureWorksLT.BL\Topicos.AdventureWorksLT.BL.csproj", "{DFD0DFCB-2676-4D80-83CE-421AE889D220}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topicos.AdventureWorksLT.BL", "Topicos.AdventureWorksLT.BL\Topicos.AdventureWorksLT.BL.csproj", "{DFD0DFCB-2676-4D80-83CE-421AE889D220}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.AdventureWorksLT.API", "Topicos.AdventureWorksLT.API\Topicos.AdventureWorksLT.API.csproj", "{DD84B21F-559D-44C3-9D7C-06F4A55184F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFD0DFCB-2676-4D80-83CE-421AE889D220}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD84B21F-559D-44C3-9D7C-06F4A55184F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD84B21F-559D-44C3-9D7C-06F4A55184F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD84B21F-559D-44C3-9D7C-06F4A55184F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD84B21F-559D-44C3-9D7C-06F4A55184F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,10 +9,11 @@ namespace Topicos.AdventureWorksLT.Model.Models
 {
     public partial class Customer
     {
-
         [NotMapped]
-        public string FullName {
-            get {
+        public string FullName
+        {
+            get
+            {
                 var resultado = string.Empty;
                 if (this.Title != null)
                 {
@@ -23,14 +24,30 @@ namespace Topicos.AdventureWorksLT.Model.Models
                 {
                     resultado += " " + this.MiddleName;
                 }
-                resultado = " " + this.LastName;
+                resultado += " " + this.LastName;
                 if (this.Suffix != null)
                 {
                     resultado += " " + this.Suffix;
                 }
                 return resultado;
             }
-            set { } 
+            set { }
+        }
+
+        [NotMapped]
+        public string EmailDomain
+        {
+            get
+            {
+                var resultado = string.Empty;
+                if (!string.IsNullOrEmpty(this.EmailAddress))
+                {
+                    var posicionArroba = this.EmailAddress.IndexOf('@');
+                    resultado = this.EmailAddress.Substring(posicionArroba + 1);
+                }
+                return resultado;
+            }
+            set { }
         }
     }
 }

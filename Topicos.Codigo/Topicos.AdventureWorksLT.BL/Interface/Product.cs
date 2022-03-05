@@ -15,11 +15,11 @@ namespace Topicos.AdventureWorksLT.BL
             return elResultado;
         }
 
-        public IList<Model.Models.Product> BuscarTodos()
+        public async Task<IList<Model.Models.Product>> BuscarTodos()
         {
             var elRepositorio = new Repositorio.Product();
             var elResultado = elRepositorio.BuscarTodos();
-            return elResultado;
+            return await elResultado;
         }
     }
 }
